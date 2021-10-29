@@ -15,7 +15,7 @@ provider "aws" {
 }
 
 resource "aws_s3_bucket" "app_server" {
-    bucket = "tf-test-bucket-%d"
+    bucket = "tf-test-bucket-mansong"
     acl    = "private"
 
   tags = {
